@@ -86,5 +86,109 @@ body > *{
 
 #information{
 	width: 100%;
-	background-color: aqua;
+	display: flex;
+	flex-direction: column;
+	height: 75vh;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 150px 120px 150px;
+}
+
+#information > h3 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+}
+
+#information > div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 75%;
+}
+
+.card{
+	display: flex;
+	width: 20%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card > figure{
+	border-radius: 10px;
+	height: 80px;
+	width: 80px;
+	padding:80px;
+	border: 5px solid #3882F6;
+	margin-bottom: 5px;
+}
+
+#quote{
+	height: 75vh;
+	padding: 0 250px;
+	display: flex;
+	flex-direction: column;
+	background-color: #E5E7EB;
+	justify-content: center;
+}
+
+#quote > p{
+	font-size: 36px;
+	font-style: italic;
+}
+
+#quote > h4{
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	font-size: 30px;
+	font-style: normal;
+}
+
+#action-call{
+	height: 50vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#action-call > div{
+	width: 100%;
+	background-color: #3882F6;
+	padding:40px 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 10px;
+	color: #FFF;
+}
+
+#action-call > div > button{
+	color: #FFF;
+	background-color: #3882F6;
+	border: 2px solid #FFF;
+	height: 40px;
+	width: 140px;
+	border-radius: 10px;
+	font-weight: 800;
+	font-size: 20px;
+}
+
+#action-call > div > div > h3{
+	font-weight: 800;
+	font-size: 30px;
+}
+
+footer{
+	width: 100%;
+	background-color: #1f2937;
+	text-align: center;
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+	font-weight: 700;
 }
