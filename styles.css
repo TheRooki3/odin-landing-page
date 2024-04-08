@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -69,17 +70,19 @@ body > *{
 }
 
 #hero > article > button{
-	width: 100px;
-	padding: 5px;
-	border-radius: 5px;
+	width: 120px;
+	padding: 10px;
+	border-radius: 8px;
 	background-color: #3882F6;
 	color: #F9FAF8;
 	border: none;
 	font-weight: 800;
+	margin-top: 10px;
+	font-size: 18px;
 }
 
 #hero > figure{
-	background-color: gray;
+	background-color: #6d6d6e;
 	color: #F9FAF8;
 	padding : 100px 120px;
 }
@@ -113,6 +116,8 @@ body > *{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
+	color: #6d6d6e;
 }
 
 .card > figure{
@@ -136,6 +141,7 @@ body > *{
 #quote > p{
 	font-size: 36px;
 	font-style: italic;
+	font-weight: -100;
 }
 
 #quote > h4{
